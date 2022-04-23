@@ -3,11 +3,11 @@
 ## 介绍
 
 简单的网页导航
-Fock 自[简单的网页导航](https://github.com/qq123545/-)
+Fock 自 [简单的网页导航](https://github.com/qq123545/-)
 
 ## 改动
 
-1. 通过修改 css，讲原来的白色界面修改为夜间模式
+1. 通过修改 css，将原来的白色界面修改为暗色模式
 
 界面演示：  
 ![png1](演示图片/1.png)
@@ -25,7 +25,7 @@ _图片来源网上，如侵删_
 
 ## 使用
 
-下载后打开`./webstack/index.html`就可以了
+下载后打开`/webstack/index.html`就可以了
 
 ## demo
 
