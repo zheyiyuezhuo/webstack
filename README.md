@@ -26,7 +26,9 @@
    ![png1](./demoimage/demo2.png)
 
    - 问题：在手机页面中，由于横向距离较短，无法显示和选择后面的网站，我不大懂代码，只能期待有大佬能帮忙改进了。
+
      ![demo3](./demoimage/demo3.png)
+
      _无法右滑_
 
 4. 将部分图标修改为图片显示。
@@ -45,17 +47,19 @@
 ```
 
 - 修改后的代码
-- `href="https://unraid.net"`为地址
-- `src="./webstack/asset/unraid.png"`为图片地址
-  - 有图床的小伙伴也可以修改为`src="https://png.xx/i/unraid.png"`
-  - 如果有没有的图片，可以去[HD-Icons](https://github.com/xushier/HD-Icons)找，就是都是圆角矩形，我还是喜欢错落有致的
-- `alt="unraid"`为图片名称，不修改也可以
 
 ```html
     <li class="col-3 col-sm-3 col-md-3 col-lg-1"><a rel="nofollow" href="https://unraid.net" target="_blank"><img class="icons" src="./webstack/asset/unraid.png" alt="unraid">
         </img><span>Unraid</span></a></li>
 ```
 
-由于完全没学过编程代码，所以只是实现了这个功能，如果有什么格式缩进等错误（肯定有），也是只能麻烦大佬优化了
+- `href="https://unraid.net"`为地址
+- `src="./webstack/asset/unraid.png"`为图片地址
+  - 有图床的小伙伴也可以修改为`src="https://png.xx/i/unraid.png"`
+  - 如果有没有的图片，可以去[HD-Icons](https://github.com/xushier/HD-Icons)找，就是都是圆角矩形，我还是喜欢错落有致的
+- `alt="unraid"`为图片名称，不修改也可以
+- 由于完全没学过编程代码，所以只是实现了这个功能
+- 如果有什么格式缩进等错误（肯定有），也是只能期待有大佬能优化了
 
 4. 已将前边几块的网址清空，需要修改为自己的网址
+5. 
